@@ -79,7 +79,15 @@ const addMarks = (text, mark, times) => { // arrow is shorcut for function
   console.log(betty)
   console.log(gamma)
   
+const showNameWithNumber = (name = 'Unknown', number = 0) => {
+    const nameWithNumber = `${name} is ${number} number`
 
+    return nameWithNumber
+}
+const Taufikkk = showNameWithNumber('Taufikkk', 1000)
+const Hidayattt = showNameWithNumber('Hidayattt', 2000)
+
+console.log(Taufikkk)
   
   
   
